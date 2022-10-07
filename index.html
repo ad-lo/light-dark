@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
     <!-- Navigation -->
     <nav id="nav">
         <a href="#home">HOME</a>
@@ -34,20 +45,39 @@
             </div>
             <div class="image-container">
                 <h2>Exceptional Ideas</h2>
-                <img src="img/undraw_conceptual_idea_light.svg" alt="proud coder" id="image2">
+                <img src="img/undraw_conceptual_idea_light.svg" alt="ideas" id="image2">
             </div>
             <div class="image-container">
                 <h2>Positive Brand Recognition</h2>
-                <img src="img/undraw_feeling_proud_light.svg" alt="proud coder" id="image3">
+                <img src="img/undraw_feeling_proud_light.svg" alt="brand" id="image3">
             </div>
         </div>
     </section>
     <!-- project section -->
     <section id="projects">
         <h1>Buttons</h1>
+        <div class="buttons">
+           <button class="primary">Primary</button>
+           <button class="secondary">Secondary</button>
+           <button class="primary" disabled>Disabled</button>
+           <button class="outline">Outline</button>
+           <butoon class="outline secondary">Alt Outline</butoon>
+           <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ducimus animi voluptate quisquam id, ratione iure. Consequuntur excepturi laborum saepe labore, temporibus facere eaque ea, aliquid, exercitationem cumque odio sed.</p>
+        </div>
     </section>
     <!-- Contact Section -->
     <section id="contact">
+        <div class="social-icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-codepen"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-medium"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
        
     </section>
     <!-- Script -->
